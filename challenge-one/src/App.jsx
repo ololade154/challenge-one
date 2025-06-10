@@ -3,6 +3,7 @@ import Main from './components/Main';
 import Content from './components/Content';
 import SkillsList from './components/SkillsList';
 
+import ButtonList from './components/ButtonList';
 import './index.css';
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Main></Main>
       <Content></Content>
       <SkillsList></SkillsList>
+      <ButtonList></ButtonList>
     </div>
   );
 }
